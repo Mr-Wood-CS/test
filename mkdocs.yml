@@ -9,3 +9,5 @@ theme:
 markdown_extensions:
   - attr_list
 
+plugins:
+  - mkdocs-pdf
