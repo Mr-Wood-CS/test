@@ -13,6 +13,3 @@ markdown_extensions:
     relative_path: '' # default ''
     absolute: true # default: false
     tags: 'a script img link object embed'
-
-plugins:
-  - mkdocs-pdf
