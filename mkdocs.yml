@@ -8,6 +8,11 @@ theme:
 
 markdown_extensions:
   - attr_list
+  - pymdownx.pathconverter:
+    base_path: 'YOUR_REPO_NAME' # default: ''
+    relative_path: '' # default ''
+    absolute: true # default: false
+    tags: 'a script img link object embed'
 
 plugins:
   - mkdocs-pdf
