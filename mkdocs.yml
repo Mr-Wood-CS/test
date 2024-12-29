@@ -7,7 +7,9 @@ theme:
   name: material
 
 markdown_extensions:
-  - attr_list
-plugins:
-  - mkdocs_pdf
+  - pymdownx.pathconverter:
+      base_path: 'YOUR_REPO_NAME' # default: ''
+      relative_path: '' # default ''
+      absolute: true # default: false
+      tags: 'a script img link object embed'
 
