@@ -1,7 +1,5 @@
 # Test PDF
 
-![Alt text](<NAH_Computing-Science_QP_2019.PDF>){ type=application/pdf }
-
 {% with pdf_file = "NAH_Computing-Science_QP_2019.PDF" %}
 
 {% set solid_filepdf = '<i class="fas fa-file-pdf"></i>' %}
